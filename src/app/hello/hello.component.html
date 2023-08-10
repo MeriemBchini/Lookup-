@@ -1,0 +1,31 @@
+<div class="f">
+<div class="mx-auto" style="width: 800px;margin-top: 100px;">
+ 
+ 
+    <input class="form-control mr-sm-2" type="search"  [(ngModel)]="this.searchValue" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-dark my-sm-3 my-sm-1" (click)="onSearch(this.searchValue)" > Search </button>
+  
+
+</div>
+</div>
+<div class="positioned" >
+
+<p>  Admin Country :   {{infos.adminCountry}}</p> 
+<p> Admin Email :      {{infos.adminEmail}} </p>
+<p> Admin Organization : {{infos.adminOrganization}} </p>
+<p>Admin Postal Code: {{infos.adminPostalCode}}</p>
+<p>Registrar Iana Id: {{infos.registrarIanaId}}</p>
+<p>Admin StateProvince: {{infos.adminStateProvince}}</p>
+<p>Creation Date : {{infos.creationDate}}</p>
+<p>Domain Name: {{infos.domainName}}</p>
+<p>Last Update Of Whois Database : {{infos.lastUpdateOfWhoisDatabase}}</p>
+<p>Name Server: {{infos.nameServer}}</p>
+<p>Registrant Country:{{infos.registrantCountry}}</p>
+<p>Registrant Email:{{infos.registrantEmail}}</p>
+<p>Registry Domain Id:{{infos.registryDomainId}}</p>
+<p>Updated Date:{{infos.updatedDate}}</p>
+
+
+ 
+
+</div>
